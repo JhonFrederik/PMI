@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 37%, rgba(90, 1, 148, 1) 100%);
+    font-family: sans-serif;
+    color: azure;
+}
+
+main {
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    background-color: rgba(123, 46, 239, 0.2);
+    font-weight: bold;
+    position: relative;
+    overflow: hidden; /* Esto oculta cualquier parte de la imagen que se salga del botón */
+}
+
+button img {
+    width: 100%; /* Ajusta la imagen al 100% del botón */
+    height: 100%; /* Asegura que la imagen ocupe toda la altura */
+    object-fit: cover; /* Mantiene la relación de aspecto de la imagen */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.section2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.estadisticas {
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
